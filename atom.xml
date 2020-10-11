@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kang-shawn.github.io</id>
     <title>Gridea</title>
-    <updated>2020-10-11T09:51:14.515Z</updated>
+    <updated>2020-10-11T09:52:09.776Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kang-shawn.github.io"/>
     <link rel="self" href="https://kang-shawn.github.io/atom.xml"/>
@@ -134,24 +134,6 @@
 <p>脖子咔咔不要经常的去咔咔响，偶尔响一下是可以的，说明颈椎的稳定性不好，重点做一下颈椎激活、w上下移动和气场大法</p>
 <p>3.如何挑选枕头？</p>
 <p><a href="https://zhuanlan.zhihu.com/p/25437877">https://zhuanlan.zhihu.com/p/25437877</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Test123]]></title>
-        <id>https://kang-shawn.github.io/post/test123/</id>
-        <link href="https://kang-shawn.github.io/post/test123/">
-        </link>
-        <updated>2020-08-16T11:21:04.000Z</updated>
-        <content type="html"><![CDATA[<p>test123456</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Test]]></title>
-        <id>https://kang-shawn.github.io/post/tech/</id>
-        <link href="https://kang-shawn.github.io/post/tech/">
-        </link>
-        <updated>2020-08-16T10:24:20.000Z</updated>
-        <content type="html"><![CDATA[<p>嗨，我是邵康</p>
 ]]></content>
     </entry>
     <entry>
