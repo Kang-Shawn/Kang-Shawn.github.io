@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T12:26:36.404Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="G9dPu94friprp2KyWiPQ" version="14.1.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-10T12:30:56.348Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="XH3-yNVVONOe2YGvygJ_" version="14.1.9" type="github" pages="2">
   <diagram id="jm0kqqXkvrBE6uGvm78l" name="现状">
     <mxGraphModel dx="1213" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -230,6 +230,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="eliUtBJ559vUBoHQF49m-62" value="读操作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eliUtBJ559vUBoHQF49m-52">
+          <mxGeometry x="0.0927" y="-1" relative="1" as="geometry">
+            <mxPoint x="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="eliUtBJ559vUBoHQF49m-6" value="steamboat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eliUtBJ559vUBoHQF49m-1">
           <mxGeometry x="120" y="310" width="120" height="40" as="geometry" />
         </mxCell>
@@ -302,6 +307,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="eliUtBJ559vUBoHQF49m-61" value="增删改查" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eliUtBJ559vUBoHQF49m-49">
+          <mxGeometry x="-0.0136" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="eliUtBJ559vUBoHQF49m-33" value="niseko-repo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eliUtBJ559vUBoHQF49m-1">
           <mxGeometry x="740" y="310" width="120" height="40" as="geometry" />
         </mxCell>
@@ -354,22 +364,6 @@
             <mxPoint x="800" y="280" as="sourcePoint" />
             <mxPoint x="800" y="20" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="eliUtBJ559vUBoHQF49m-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="eliUtBJ559vUBoHQF49m-1" source="eliUtBJ559vUBoHQF49m-55">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="400" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eliUtBJ559vUBoHQF49m-55" value="只有读操作" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" vertex="1" parent="eliUtBJ559vUBoHQF49m-1">
-          <mxGeometry x="40" y="350" width="80" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="eliUtBJ559vUBoHQF49m-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="eliUtBJ559vUBoHQF49m-1" source="eliUtBJ559vUBoHQF49m-58">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="800" y="410" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eliUtBJ559vUBoHQF49m-58" value="增删改查" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" vertex="1" parent="eliUtBJ559vUBoHQF49m-1">
-          <mxGeometry x="865" y="360" width="80" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
