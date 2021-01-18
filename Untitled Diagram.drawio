@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-18T08:07:24.224Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="6l74cxTN3MKXDjt8H0DZ" version="14.2.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-18T09:23:02.167Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="wSGErcePaSEQz4wVnwZa" version="14.2.3" type="github" pages="4">
   <diagram id="jm0kqqXkvrBE6uGvm78l" name="现状">
     <mxGraphModel dx="1213" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -776,7 +776,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MENtX8EGOTXYKlpjZ7K3" name="数据采集">
-    <mxGraphModel dx="1213" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1344" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="eN0Q223DxsFn2OgG5vFt-0" />
         <mxCell id="eN0Q223DxsFn2OgG5vFt-1" parent="eN0Q223DxsFn2OgG5vFt-0" />
@@ -878,7 +878,7 @@
         <mxCell id="cdYD4sizC4jt5HqHZyWE-17" value="大于DB值" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="eN0Q223DxsFn2OgG5vFt-1" source="cdYD4sizC4jt5HqHZyWE-14" target="cdYD4sizC4jt5HqHZyWE-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cdYD4sizC4jt5HqHZyWE-19" value="小于DB值" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="eN0Q223DxsFn2OgG5vFt-1" source="cdYD4sizC4jt5HqHZyWE-14" target="cdYD4sizC4jt5HqHZyWE-18">
+        <mxCell id="cdYD4sizC4jt5HqHZyWE-19" value="小于等于DB值" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="eN0Q223DxsFn2OgG5vFt-1" source="cdYD4sizC4jt5HqHZyWE-14" target="cdYD4sizC4jt5HqHZyWE-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cdYD4sizC4jt5HqHZyWE-14" value="update_at比较" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="eN0Q223DxsFn2OgG5vFt-1">
@@ -900,6 +900,21 @@
         </mxCell>
         <mxCell id="cdYD4sizC4jt5HqHZyWE-18" value="结束流程" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="eN0Q223DxsFn2OgG5vFt-1">
           <mxGeometry x="270" y="940" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cdYD4sizC4jt5HqHZyWE-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="eN0Q223DxsFn2OgG5vFt-1" source="cdYD4sizC4jt5HqHZyWE-24" target="cdYD4sizC4jt5HqHZyWE-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cdYD4sizC4jt5HqHZyWE-24" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="eN0Q223DxsFn2OgG5vFt-1">
+          <mxGeometry x="320" y="1260" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cdYD4sizC4jt5HqHZyWE-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="eN0Q223DxsFn2OgG5vFt-1" source="cdYD4sizC4jt5HqHZyWE-25" target="cdYD4sizC4jt5HqHZyWE-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cdYD4sizC4jt5HqHZyWE-25" value="更新数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="eN0Q223DxsFn2OgG5vFt-1">
+          <mxGeometry x="320" y="1400" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cdYD4sizC4jt5HqHZyWE-28" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="eN0Q223DxsFn2OgG5vFt-1">
+          <mxGeometry x="320" y="1580" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
